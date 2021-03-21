@@ -1,12 +1,12 @@
 const Timeout = new Set()
-const prefix = '/h.'
+const prefix = 'prefix'
 const ms = require('ms')
 module.exports=async(bot,message)=>{
 
 
 
 if(message.content.match(new RegExp(`^<@!?${bot.user.id}>( |)$`))) {
-message.channel.send(`my prefix is **/h.**, check my commands with **/h.help**.`)
+message.channel.send(`why u mentioned me.`)
 }
 const args = message.content.slice(prefix.length).trim().split(/ +/g);
 const cmd = args.shift().toLowerCase();
