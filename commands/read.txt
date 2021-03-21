@@ -1,0 +1,2 @@
+You can put more folders such as a folder where the 'nsfw' commands or another of 'administration' go, it does not matter what name you give it
+
