@@ -16,7 +16,7 @@ const {MessageEmbed} = require('discord.js')
     .setDescription('```xl\n'+ joke +'```')
     .setColor('RANDOM')
     .setFooter('© devmitza')
-      message.channel.send({embed : jokeE});
+      message.channel.send({embed : jokeE})
     
     })
 
