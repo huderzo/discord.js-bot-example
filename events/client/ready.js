@@ -1,26 +1,32 @@
-const prefix = '/h.'
+const prefix = 'prefix' //!help, /help, &help, $help
 module.exports=bot=>{
      console.log(bot.user.tag);
-const array = [
+     
+const coolstatus = [
   {
-    name: `/h.`,
+    name: `cool status`,
     type: `PLAYING`
   },
   {
-    name: `/h.help`,
+    name: `second cool status`,
     type: `WATCHING` 
   },
   {
-    name: `@Huder`,
+    name: `cool third status`,
     type: `LISTENING`
+   //},
+   //{
+   //name: `cool streaming!`,
+   //type: STREAMING,
+   //url: 'streaming url'
   }
 ]
 
     setInterval(() => {
         function presence() {
             bot.user.setPresence({
-              status: 'online', 
-                activity: array[Math.floor(Math.random() * array.length)], 
+              status: 'online', //u can use dnd, idle and online
+                activity: coolstatus[Math.floor(Math.random() * coolstatus.length)], 
             });
         }
 
