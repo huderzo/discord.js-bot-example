@@ -18,4 +18,4 @@ In this example we approve the copy and paste
 I will update these examples when a new version of Discord.js comes out
 ```
 
-example made by huderzo.
+# example made by huderzo.
